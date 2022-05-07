@@ -1,0 +1,50 @@
+@charset "utf-8";
+body h1 {
+}
+
+.樣1 {
+    background-color: #ED8A8B;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    -webkit-transition: all 1s ease-in-out 0s;
+    -o-transition: all 1s ease-in-out 0s;
+    transition: all 1s ease-in-out 0s;
+}
+.樣1:hover {
+    background-color: #757EEF;
+    font-size: x-large;
+    width: 300px;
+    height: 300px;
+}
+.樣2 {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    background-color: #E9EC71;
+    -webkit-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
+.樣2:hover {
+    background-color: #EF92FA;
+	transform: rotate(15deg);
+}
+.樣3 {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    background-color: #63E85B;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.樣3:hover {
+    background-color: #EF7F50;
+    transform: translate(20px,20px);
+    -webkit-box-shadow: 11px 11px 6px;
+    box-shadow: 11px 11px 6px;
+}
